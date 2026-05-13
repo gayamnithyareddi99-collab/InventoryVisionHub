@@ -703,15 +703,32 @@ footer{background:var(--bg-footer);border-top:1px solid rgba(245,166,35,0.14);}
 <!-- ═══════════ NAVBAR ═══════════ -->
 <nav class="navbar">
 
-  <!-- LOGO -->
-  <a class="nav-logo" href="#" onclick="showPage('home');return false;">
-    <img src="logooo.jpg" alt="InventoryVisionHub Logo" style="width:40px;height:40px;border-radius:10px;object-fit:cover;box-shadow:0 4px 14px rgba(245,166,35,0.4);flex-shrink:0;">
-    <div class="nav-logo-text">
-      InventoryVisionHub
-      <span>SpatialOps Intelligence</span>
-    </div>
-  </a>
+ <!-- LOGO -->
+<a class="nav-logo" href="#" onclick="showPage('home');return false;">
+  
+  <div style="
+    width:40px;
+    height:40px;
+    border:1px solid #f5a623;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#f5a623;
+    font-weight:700;
+    font-size:14px;
+    box-shadow:0 4px 14px rgba(245,166,35,0.2);
+    flex-shrink:0;
+  ">
+    IV
+  </div>
 
+  <div class="nav-logo-text">
+    InventoryVisionHub
+    <span>SpatialOps Intelligence</span>
+  </div>
+
+</a>
   <ul class="nav-links">
     <li><button id="nav-home" onclick="showPage('home')" class="active">Home</button></li>
     <li><button id="nav-about" onclick="showPage('about')">About</button></li>
